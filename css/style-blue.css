@@ -633,7 +633,7 @@ a:hover {
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  top: 14rem;
+  top: 6rem;
 }
 
 .intro .intro-title {
@@ -708,6 +708,10 @@ a:hover {
   text-align: center;
   font-size: 100px;
  
+}
+
+.about_text{
+  text-decoration: underline #1751a7;
 }
 .about-1 strong {
   font-size: 50px;
@@ -1091,6 +1095,10 @@ a:hover {
   width: auto;
   right: 1.5rem;
 }
+.title-left{
+  
+  text-decoration: underline #1751a7 3px;
+}
 
 .contact-pic {
   position: relative;
@@ -1110,6 +1118,7 @@ align-items: center;
   font-weight: 600;
   font-size: 15px;
   text-align: left;
+  
 }
 
 .footer-paralax {
@@ -1461,17 +1470,22 @@ a span .btnlink {
 /* ================================================ */
 
 @media (max-width: 400px) {
+
+  .containerHero{
+    position: relative;
+    top: 3rem;
+  }
   .intro .intro-title {
-    color: rgb(0, 0, 0);
+    color: rgb(170, 32, 32);
     font-weight: 600;
-    font-size: 5rem !important;
+    font-size: 4rem !important;
   }
 
   /* last name */
   .intro .lastName {
     color: rgb(99, 99, 99);
     font-weight: 600;
-    font-size: 5rem !important;
+    font-size: 4rem !important;
     line-height: 0px;
   }
 
@@ -1479,28 +1493,29 @@ a span .btnlink {
   .containerHero h3 {
     position: absolute;
     color: #1e67d4;
-    top: 19rem;
-    font-size: 1.25rem;
+    top: 6rem;
+    font-size: 1rem;
     letter-spacing: 0.5rem;
+    width: 300px;
   }
   .rotate {
     position: relative;
-    right: 1.5rem;
+    left: -2.25rem;
     
   }
   .distortion {
     position: relative;
-    width: 380px;
-    height: 380px;
-    top: -5rem;
-    margin-left: -6rem;
+    width: 300px;
+    height: 300px;
+    top: -3rem;
+    margin-left: -5rem;
   }
   .circle {
     position: relative;
-    top: 30rem;
-    height: 300px;
-    width: 300px;
-    right: 19rem;
+    top: 24rem;
+    height: 250px;
+    width: 250px;
+    right: 14.5rem;
   }
   .line-mf {
      
@@ -1538,11 +1553,17 @@ a span .btnlink {
   .resbtn{
     left: 3rem;
   }
+.btndemo{
+  position: relative;
+  left: 9rem;
+  
+}
+.source{
+  position: relative;
+  left: -3rem;
+}
 
-  #btndemophoto{
-    position: relative;
-    left: .5rem;
-  }
+  
   .contactbtn{
     position: relative;
     top: 0rem;
