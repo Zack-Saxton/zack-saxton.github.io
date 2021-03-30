@@ -1015,7 +1015,13 @@ a:hover {
 }
 
 .w-title {
+  text-align: center;
   font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+#flex-button{
+margin-top: 1rem;
+padding-bottom: 1rem;
 }
 
 .w-like {
@@ -1296,7 +1302,10 @@ footer .credits a {
 
 
 
-
+#messageme{
+  position: relative;
+  left: 2rem;
+}
 
 
 
@@ -1597,7 +1606,7 @@ a span .btnlink {
 }
 
 
-@media (min-width: 411px) and (max-width: 530px){
+@media (min-width: 408px) and (max-width: 530px){
   .intro .intro-title {
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -1615,7 +1624,7 @@ a span .btnlink {
   .containerHero h3 {
     position: absolute;
     color: #1e67d4;
-    top: 20rem;
+    top: 17rem;
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
   }
@@ -1628,12 +1637,12 @@ a span .btnlink {
     position: relative;
     width: 300px;
     height: 300px;
-    top: -2rem;
-    margin-left: -4rem;
+    top: -3rem;
+    margin-left: -5rem;
   }
   .circle {
     position: relative;
-    top: 30rem;
+    top: 28rem;
     height: 250px;
     width: 250px;
     right: 19rem;
@@ -1678,7 +1687,7 @@ a span .btnlink {
   .btndemo{
     position: relative;
     left: 0rem;
-  margin: 2px;
+  margin: 1px;
   }
 
   .contactbtn{
@@ -1871,7 +1880,7 @@ a span .btnlink {
   }
   .circle {
     position: relative;
-    top: 18rem;
+    top: 15rem;
     height: 290px;
     width: 290px;
     left: 0rem;
@@ -1910,7 +1919,7 @@ a span .btnlink {
     display: none;
   }
   .resbtn{
-    left: 8.5rem;
+    left: 10.5rem;
   }
 
   #btndemophoto{
@@ -1949,181 +1958,15 @@ a span .btnlink {
   
 
 }
+@media (min-width: 768px) and (max-width: 899px){
 
 
-@media (min-width: 767px) and (max-width: 1200px){
-  
+
   .containerHero{
-    position: relative;;
+    position: absolute;;
     margin: 0;
     left: 3rem;
-    bottom: 6rem;
-  }
-  
-  .intro .intro-title {
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    font-size: 8rem !important;
-  }
-
-  .intro .lastName {
-    color: rgb(99, 99, 99);
-    font-weight: 600;
-    font-size: 8rem !important;
-    line-height: 0px;
-  }
-
-  /* title changer */
-  .containerHero h3 {
-    position: absolute;
-    color: #1e67d4;
-    top: 15.5rem;
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-  }
-  .rotate {
-    position: relative;
-    right: 0rem;
-    
-  }
-  .distortion {
-    position: relative;
-    width: 370px;
-    height: 370px;
-    bottom: 5rem;
-    right: 6rem;
-  }
-  .circle {
-    position: relative;
-    top: 18rem;
-    height: 290px;
-    width: 290px;
-    left: 0rem;
-  }
-  .line-mf {
-     
-      width: 150px;
-      height: 5px;
-      background-color: #1e67d4;
-      margin: 0 auto;
-    
-  }
-
-  .img {
-    position: absolute;
-    height: 20%;
-    opacity: 0.8;
-    z-index: 1;
-    border-radius: 30%;
-    z-index: -1;
-  }
-  
-  .img2 {
-    top: 0%;
-    left: 75%;
-    animation: circle2 30s linear infinite;
-  }
-  .img6 {
-    top: 60%;
-    left: 5%;
-    animation: circle9 40s linear infinite;
-  }
-  
-  .img7 {
-    top: 36%;
-    left: 50%;
-    animation: circle7 50s linear infinite;
-  }
-  .img8 {
-    top: 80%;
-    left: 70%;
-    animation: circle1 20s linear infinite;
-  }
-  
-  .img9 {
-    top: 5%;
-    left: 12%;
-    animation: circle9 40s linear infinite;
-  }
-
-
-
-  .about_text {
-    /* position: relative; */
-    text-align: center;
-    font-size: 40px;
-    bottom: 2rem;
-    text-decoration: underline #1751a7;
-  }
-  
-  .about-1 strong {
-    position: relative;
-    bottom: 5rem;
-    font-size: 25px;
-    font-weight: 600;
-  }
-  .about-1 {
-    position: relative;
-    bottom: 0rem;
-  }
-  .about-2 {
-    position: relative;
-    bottom: 2rem;
-  }
-  #about img{
-    /* display: none; */
-  }
-  .resbtn{
-    left: 8.5rem;
-  }
-
-  #btndemophoto{
-    position: relative;
-    left: .5rem;
-  }
-  .contactbtn{
-    position: relative;
-    top: 0rem;
-    left: -1rem;
-  }
-
-  .socials {
-    padding: 1.5rem 0;
-  }
-  
-  
-  .socials .ico-circle {
-    height: 40px;
-    width: 40px;
-    font-size: 1.5rem;
-    border-radius: 50%;
-    line-height: 1.5;
-    margin: 0 5px 0 0;
-    background-color: #1751a7;
-   color: #fff;
-  box-shadow: 0 5px 15px #193047;
-   border-radius: 2rem;
-  }
-
-  .list-ico{
-    position: relative;
-    font-size: 14px;
-    left: 0px;
-  }
-  .about_text{
-    position: absolute;
-    top: 3%;
-  }
-
-}
-
-@media (min-width: 900px) and (max-width: 1200px){
-  
-  .containerHero{
-    position: relative;;
-    margin: 0;
-    left: 3rem;
-    bottom: 6rem;
+    top: 12rem;
   }
   
   .intro .intro-title {
@@ -2144,8 +1987,9 @@ a span .btnlink {
     position: absolute;
     color: #1e67d4;
     top: 20rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 0.5rem;
+    left: 1rem;
   }
   .rotate {
     position: relative;
@@ -2161,10 +2005,13 @@ a span .btnlink {
   }
   .circle {
     position: relative;
-    top: 14rem;
-    height: 490px;
-    width: 490px;
-    left: 3rem;
+    top: 34rem;
+    height: 460px;
+    width: 460px;
+    left: 9rem;
+  }
+  #about img{
+    height: 15%;
   }
 
   .about_text{
@@ -2172,5 +2019,125 @@ a span .btnlink {
   position: absolute;
   top: 2%;
   font-size: 60px;
+  }
+  .skillIcon{
+    position: relative;
+    left: 1rem;
+  }
+.skillIcon img{
+  height: 3.25rem;
+}
+.project-btn{
+  position: relative;
+  right: 1rem;
+  align-items: center;
+
+}
+
+  .btndemo{
+    font-size: .75rem;
+    top: .25rem;
+    padding: .35rem;
+  }
+
+  .source{
+    position: relative;
+  top: -.5rem;
+  }
+
+  .w-title{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  #ecomtitle{
+    padding-bottom: .5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) and (max-width: 1200px){
+
+  .containerHero{
+    position: absolute;;
+    margin: 0;
+    left: 3rem;
+    top: 12rem;
+  }
+  
+  .intro .intro-title {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 10rem !important;
+  }
+
+  .intro .lastName {
+    color: rgb(99, 99, 99);
+    font-weight: 600;
+    font-size: 10rem !important;
+    line-height: 0px;
+  }
+
+  /* title changer */
+  .containerHero h3 {
+    position: absolute;
+    color: #1e67d4;
+    top: 20rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    left: 1rem;
+  }
+  .rotate {
+    position: relative;
+    left: 2rem;
+    
+  }
+  .distortion {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    bottom: 5rem;
+    right: 9rem;
+  }
+  .circle {
+    position: relative;
+    top: 12rem;
+    height: 490px;
+    width: 490px;
+    left: 34rem;
+  }
+
+  .about_text{
+    text-decoration: underline #1751a7;
+  position: absolute;
+  top: 2%;
+  font-size: 60px;
+  }
+  .btndemo{
+    right: 1rem;
+  }
+
+  .source{
+    position: relative;
+    left: 5rem;
+    top: -2rem;
   }
 }
